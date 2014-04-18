@@ -1,0 +1,54 @@
+title:            Team 5064
+description:      Go FAST
+logo:             site-logo.png
+disqus_shortname: Team5064
+future: false	
+
+# use this url when working off GitHub
+url:                http://www.team5064.ca
+
+# Use this url when working locally
+#url:               ~
+
+# Owner/author information
+owner:
+  name:           Mario Pineda
+  avatar:         bio-photo.jpg
+  email:          mpineda@ualberta.ca
+  
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        "therocsci"
+  facebook:       "..."
+  github:         "..."
+
+# Analytics and webmaster tools stuff goes here
+#google_analytics:   UA-2011187-2
+#google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Edmonton
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+#permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "so-simple-theme.sublime-project", "so-simple-theme.sublime-workspace"]
