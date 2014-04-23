@@ -4,11 +4,14 @@ logo:             site-logo.png
 disqus_shortname: Team5064
 future: false	
 
-# use this url when working off GitHub
-url:              http://team5064.github.io/5064/ 
+# The naked GitHub URL
+# url:              http://team5064.github.io/5064/ 
+
+# "Production" URL
+url:			   http://5064.ca
 
 # Use this url when working locally
-#url:               ~
+# url:               ~
 
 # Owner/author information
 owner:
