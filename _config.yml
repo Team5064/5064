@@ -5,10 +5,10 @@ disqus_shortname: Team5064
 future: false
 
 # The naked GitHub URL
-# url:              http://team5064.github.io/5064/ 
+ url:              http://team5064.github.io/5064/ 
 
 # "Production" URL
-url:  http://5064.ca
+#url:  http://5064.ca
 
 # Use this url when working locally
 # url:               ~
