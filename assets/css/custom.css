@@ -1,27 +1,21 @@
-/* bootstrap 3 helpers */
-
-.navbar-form input, .form-inline input {
-	width:auto;
-}
-
 header {
-	height:270px;
+	min-height:230px;
+  	margin-bottom:5px;
 }
 
 @media (min-width: 979px) {
   #sidebar.affix-top {
-    position: static;
-  	margin-top:25px;
-  	width:228px;
+      position: static;
   }
   
   #sidebar.affix {
-    position: fixed;
-    top:25px;
-    width:228px;
+      position: fixed;
+      top: 100;
+      width:21.2%;
   }
 }
 
 .affix,.affix-top {
    position:static;
 }
+
