@@ -112,13 +112,15 @@ Report to: Management Team and Team Director
   <dd>...</dd>
 </dl>
 
-<h3>Student members</h3>
-Report to: Team captains, Management Team and Team Director 
+{% include h4.html txt="Student members" id="studentmembers" %}
+Report to: Team Captains, Management Team and Team Director 
+...
 
-<h3>Parents</h3>
+{% include h4.html txt="Parents" id="parents" %}
+...
 
-<h2>Joining</h2>
-<h3>Student eligibility</h3>
+{% include h1.html txt="Joining the team" id="joining" %}
+{% include h4.html txt="Student Eligibility" id="studenteligibility" %}
 <ol>
 <li>Students must be a grade 9-12 student residing in Edmonton.</li>
 <li>Students must maintain a minimum of a 60% average.</li>
@@ -127,35 +129,51 @@ Report to: Team captains, Management Team and Team Director
 <li>Students and parents must complete the necessary paperwork and pay the required fees including the annual registration fee, t-shirt costs, and travel expenses. </li>
 </ol>
 
-<h3>Mentor eligibility</h3>
-Clean police criminal record check and vulnerable sector check, able to connect with high school kids, being able to mentor a teach
+{% include h4.html txt="Mentor Eligibility" id="mentoreligibility" %}
+<p>Mentors are required to agree and be able to follow all the rules described in this handbook and are required to submit a Police Criminal Record Check including Vulnerable Sector check. While specific expertise is desirable (e.g. mechanical engineering, electrical engineering, programming, CAD, business management, CAD, graphical design, fundraising, etc.) this alone does not guarantee that the person would be a suitable mentor. The most important qualities the mentors has to bring to the team (much more important than technical expertise) is to be able to connect with, mentor and teach high school students, being a suitable rle model for children and youth, being willing and able to follow all the rules set forth in this guidelines, the <a href="http://www.usfirst.org/roboticsprograms/frc/mentoring"><em>FIRST</em> mentor guidelines</a> and live up to and support the <em>FIRST</em> Core Values.</p>
 
-<h2>Being a team member</h2>
-<h3>Behavior</h3>
+{% include h1.html txt="Member Rules" id="memberrules" %}
+<p>Except where indicated otherwise the the term <em>Member</em> refers to both students and mentors throughout this handbook.</p>
+
+<p>The <em>FIRST</em> Core Values are core guidelines everyone in our team is required to adhere to at all times. The <em>FIRST</em> Core Values are:
+<ul>
+<li>We are a team.</li>
+<li>We do the work to find solutions with guidance from our coaches and mentors.</li> 
+<li>We know our coaches and mentors don't have all the answers; we learn together.</li> 
+<li>We honor the spirit of friendly competition.</li>
+<li>What we discover is more important than what we win.</li> 
+<li>We share our experiences with others.</li>
+<li>We display Gracious Professionalism and Coopertition in everything we do.</li>
+<li>We have FUN!</li>
+</ul>
+Where "we" represents "the students" in the team. Mentors are also required to follow and promote the <em>FIRST</em> Core Values at all times.
+</p>
+
+{% include h4.html txt="Behaviour Expectations" id="behaviourexpectations" %}
 <p>The behavior of the team member’s is under scrutiny at all times. Students and mentors represent not only our team, but each and every community supporter, mentor, and sponsor. The behaviour of team members (students and mentors) is a message to all regarding the calibre of members on our team. All members on the team are required to display mature and responsible behaviours at all times and in particular during meetings and official team functions (e.g. meeting with sponsors, outreach, competitions, field trips, etc.). Every team member must obey mentor directions and obey safety guidelines at all times. The lead mentors reserve the right to discipline a team member, including giving demerits or being sent home for the day as necessary for safety and the overall good of the team. For students the parents will be informed of any disciplinary actions as soon as possible. At all times the team will follow the rules set forth in the Team Handbook and the FIRST Core Values.</p>
 
-<h3>Work meetings</h3>
+{% include h4.html txt="Meetings" id="meetings" %}
 <p>Most of our meetings will be in our head quarters at the Progressive Academy Science Classroom. Students and mentors are guests at Progressive Academy and need to be courteous, clean, and respectful. Remember to pick up any food or drink containers that you have used and deposit them in the proper location or recycle bin. Our meeting location is a classroom and will be used every day by students and teachers at Progressive Academy. It must be clean and ready for the next day’s class before anyone leave at the end of meetings. This includes sweeping and/or vacuuming the floor if any work creating debris has been conducted (e.g. saw dust or metal filings, etc.). When working with school equipment, treat it with care. All students, mentors and visitors must always wear safety apparel and follow safety guidelines when working. Closed toed shoes and safety glasses are always a must and long hair has to be tied back.</p>
 
-<h3>Cooperation</h3>
+{% include h4.html txt="Cooperation" id="cooperation" %}
 <p>Students are required to cooperate at all times. This means that if a mentor requests you to do something, you will comply with the best of your ability. Ignoring the directions or requests of a mentor is not in the team’s best interest. If you feel a request is out of order, you are encouraged to first talk to the mentor and, if this does not resolve the conflict, bring the matter to the attention of a lead mentor. The lead mentor makes the final decision not the student. </p>
 
-<h3>Uniforms and dress code</h3>
+{% include h4.html txt="Uniforms and Dress Code" id="uniforms" %}
 <p>Our team uniform is our team shirts. These shirts are designed by the team and worn on competition days. These shirts will also be worn by every team member (students and mentors) at all functions in which the team participates. When participating in official team functions no clothing is permitted to be worn on top of the shirt unless the attending lead mentor gives their permission. Uniforms may not be altered or worn in any manner not approved by a lead mentors. The only approved alteration to the uniforms is the attachment of official <em>FIRST</em> swag, i.e. buttons, lapel pins etc. from other teams. Students and mentors on the team receive one shirt per season. The shirt is to be taken care of and maintained.</p>
  
-<p>If members (students and mentors) are not wearing their team shirts on designated days, they will be asked to change clothes (which may involve having to go back home to pick up the shirt).</p> 
+<p>If team members are not wearing their team shirts on designated days, they will be asked to change clothes (which may involve having to go back home to pick up the shirt).</p> 
 
-<h3>Facebook</h3>
+{% include h4.html txt="Facebook" id="facebook" %}
 <p>Outside of meetings the team communicates using our Facebook group. All students and mentors are required to have an active Facebook account, to be members of the FRC 5064 Opcom Robotics group, www.facebook.com/groups/opcomrobotics/ and to actively and regularly check the group page. This form of communication is by far the fastest and most efficient mode of communication. </p>
 
-<h3>Student expectations</h3>
+{% include h4.html txt="Participation" id="participation" %}
 <p>Students on Team 5064 are required to be actively involved with the team. The level of participation determines whether or not a student’s trips will be paid for during competition season. Students are expected to show up on time for team meetings and events and remain for the duration of these.</p>
 
 <p>Students will put priority on their grades over any team need. Grades are important. Students must complete school work before participating in team work sessions and activities. However, we do offer homework help, especially during build season when we are putting in long hours. </p>
 
 <p>All team members are required to participate in community service, robot demonstrations and fundraising activities throughout the year. These activities are vital for the success of the team and they’re a great way to have fun with your team mates!</p>
 
-<h3>Parent expectations</h3>
+{% include h4.html txt="Parent Involvement" id="parentinvolvement" %}
 <p>Parents are required to provide additional support of the team, including chaperoning, making travel arrangements, providing meals, transportation (people and robot), general supervision (non-mentorship), donation of general supplies/snacks/water, craft-type expertise (including sewing) and assisting team mentors as requested.</p>
 
 <p>Parents must drop of and pick up students in a timely manner. There are a few reasons for this. 
@@ -166,7 +184,7 @@ Clean police criminal record check and vulnerable sector check, able to connect 
 </ul>
 </p>
 
-<h3>Mentor expectations</h3>
+{% include h4.html txt="Mentor expectations" id="mentorexpectations" %}
 <p>As a mentor your contribution of your skills and expertise are key to the success of our team. In order for mentors to be successful it is important to know what your roles and responsibilities are. Keep in mind that as a mentor, you are expected to be a role model to students and hence will be held to exceptionally high standards. While it is desirable for mentors to have expertise in a particular field the most important criteria for being a successful mentor is being able to connect with the children and be a role model. If you have expertise that would be useful for the team but lack the following characteristics then will not be a suitable mentor for our team. As you consider mentorship ask your self if you posses the following qualities.</p>
 
 <ul>
@@ -191,7 +209,7 @@ Clean police criminal record check and vulnerable sector check, able to connect 
 
 <p>All mentors are required to participate in ongoing mentor training during the bi-weekly Mentor Coffee meetings.</p>
 
-<h2>Community outreach</h2>
+{% include h4.html txt="Community outreach" id="communityoutreach" %}
 <p>Organizing and participating in community outreach activities is an important aspect of our work that all students and parents are required to actively participate in. Mentors are encouraged (but not required) to be involved in the community outreach activities.</p>
 
 <p>All students on the team are required to participate in at least two required community outreach activities and two outreach activities of their own choice each year. The two required outreach activities are: 
@@ -209,19 +227,17 @@ Clean police criminal record check and vulnerable sector check, able to connect 
 <li>Volunteer at the Edmonton Science Olympics (March)</li>
 <li>Showing Opcom robot at TWoS</li>
 <li>Family Science Nights at Edmonton schools (typically in February-April)</li>
-</li>
+</ul>
 <p>Outreach activities selected by students have to be approved ahead of the activity.</p>
 
 <p>All students are required to volunteer as an Assistant Coach on an Edmonton-based Jr.FLL or FLL team.</p>
 
-
-
-<h2>Demerits</h2>
+{% include h4.html txt="Demerits" id="demerits" %}
 <p>Demerits will be given when team members (i.e. students and mentors) do not exhibit proper behavior or display inadequate citizenship that infringes on the teams good image. Three (3) demerits constitute removal from the Team for the rest of the season for students and permanently for mentors. The number of demerits given for an infraction is at the discretion of the lead mentors (more than once demerit can be given for more serious infractions). Note that the program fee will not be reimbursed in the event of a student becoming removed from the team due to accumulating three demerits.</p>
 
 <p>Except under extenuating circumstances the demerits are reset at the end of the season. All team members, both students and mentors, must undergo evaluation and review at the end of the season every year. Placement on the team is not automatic because of experience. </p>
 
-<h2>Fundraising</h2>
+{% include h4.html txt="Fundraising" id="fundraising" %}
 <p>Fundraising is an integral part of being part of the team. The hardware for the robot alone costs more than $10000, which does not include tools, software, registration for competition and travel to and from events. In other words all students on the team are required to raise funds. Part of that will require team members to each raise $300 over the Pre-season and during Build Season. Over this 22 week period this breaks down to about $14/week.</p>
 
 <p>How to raise money: 
@@ -232,19 +248,19 @@ More fundraising ideas: http://www.usfirst.org/roboticsprograms/team-fundraising
 </ul>
 </p>
 
-<h2>Program fee</h2>
+{% include h1.html txt="Program fee" id="programfee" %}
 <p>The yearly cost for the program is $600/student. The fee is due at the time of registration. Financial assistance is available; please talk to the Lead team for more details.
 While there is no program fee for mentors, student team members of mentors pay the regular program fee. </p>
 
-<h2>Time commitment</h2>
+{% include h1.html txt="Time commitment" id="timecommitment" %}
 <p>To be a member of the Team 5064 will require many after school hours. All student team members are required to participate meetings after school and during weekends, events, and other team activities. During the fall, meetings are usually once a week on Wed from 6:00pm-8:00pm. The meetings are important to plan and execute Chairman’s Award activities, build skills, build team relationships, organize fundraisers, and keep aware of <em>FIRST</em> announcements. As Kick Off nears, meetings will become longer and more frequent. These meetings will be listed on the team calendar, available through our team website. (need to set up the online team calendar) </p>
 
 <p>Attendance is taken at all meetings during build season and mandatory meetings during the off season along with community activities. It is the student’s responsibility to sign in on the attendance sheet or check in when they arrive at community events. All students are expected to be on time and stay the required amount of time including clean up. Students participating in school-sponsored activities or having a job may be excused from attendance on a limited per case basis as reviewed by the coaches. Students must provide work schedules or school-sponsored activity event calendars to the coaches to be excused. In all cases, students who do not have the required hours for competition, will be required to spend an equal amount of time completing odd jobs around the shop. These jobs may include but are not limited to button making, organizing screws and bolts, or cleaning the workshop. These are designed to balance out the participation.</p>
 
-<h2>Highschool Credits</h2>
+{% include h1.html txt="High School Credits" id="highschoolcredits" %}
 <p>All high school students (Grades 10-12) are eligibleto recieve high school ICT credits for participating in the team over a whole season.</p>
 
-<h2>Safety</h2>
+{% include h1.html txt="Safety" id="safety" %}
 <ol>
 <li>Team members will act in a safe manner AT ALL TIMES. This includes during any team-related activity, while travelling to team events and during competitions.</li>
 <li>Team members will be respectful of the Safety Captain(s) and adhere to any reasonable requests made by the Safety Captain(s).</li>
@@ -255,12 +271,14 @@ While there is no program fee for mentors, student team members of mentors pay t
 <li>Team members will not directly or indirectly give out personal information about themselves or other team members while using any form of online/Internet communication or media. This includes all social media (Twitter, Facebook, et al.), Team 5064, other FIRST teams or other <em>FIRST</em>-sponsored forums, wikis or any Internet/Web/mobile device. As Team 5064 members, students’ communications through any media are representative of the team and should not negatively reflect on the team and should at all times reflect the tenets of FIRST and “Gracious Professionalism”.</li>
 </ol>
 
-<h2>Travelling</h2>
-<p>Travelling, as a team, is very exciting and rewarding and often the highlight of a student’s memories. A great deal of planning and organization is required to coordinate all the associated activities. A strong effort is made to make the travel be an educational/cultural experience as well as the basic competition. Safety is always the major concern.
-Students are required to attend the Kick-off event and the Canada Western Regional FRC. They are given the opportunity to travel to other competitions, including the Championship Event. Personal scheduling conflicts with the travelling itinerary of the team (e.g. vacation, travelling with other extra-curricular organizations such as sport teams, religious groups) to the Kick-off and competition will not be considered valid excuses for not attending. 
-While we encourage parents and family to join us when travelling (assuming we have space in the bus), when the team travels, students are to remain with the team for the duration of the event. Should a student leave the main body of the team at any time, they must clear this with a supervising adult first and travel in a group.</p> 
+{% include h1.html txt="Travelling" id="travelling" %}
+<p>Travelling, as a team, is very exciting and rewarding and often the highlight of a student’s memories. A great deal of planning and organization is required to coordinate all the associated activities. A strong effort is made to make the travel be an educational/cultural experience as well as the basic competition. Safety is always the major concern.</p>
 
-<h2>How parents can help</h2>
+<p>Students are required to attend the Kick-off event and the Canada Western Regional FRC. They are given the opportunity to travel to other competitions, including the Championship Event. Personal scheduling conflicts with the travelling itinerary of the team (e.g. vacation, travelling with other extra-curricular organizations such as sport teams, religious groups) to the Kick-off and competition will not be considered valid excuses for not attending. </p>
+
+<p>While we encourage parents and family to join us when travelling (assuming we have space in the bus), when the team travels, students are to remain with the team for the duration of the event. Should a student leave the main body of the team at any time, they must clear this with a supervising adult first and travel in a group.</p> 
+
+{% include h1.html txt="How parents can help" id="howparentscanhelp" %}
 <p>Parents are encouraged to be part of our team and are very important to our continued success. Parents are also a key factor in the motivation and dedication of their student. Supporting their son/daughter in all aspects of their team involvement is vital to them getting the most out of the program.</p>
 
 <p>Parents have several responsibilities: 
@@ -277,7 +295,7 @@ While we encourage parents and family to join us when travelling (assuming we ha
 <li>Parents are expected to bring issues and concerns to the Lead mentors in a timely manner. </li>
 </ul>
 
-<h2>Student contract</h2>
+{% include h1.html txt="Student Contract" id="studnetcontract" %}
 <p>Opcom requires rigorous participation and a serious commitment. This is not a team for casual participants. A student wishing to travel/participate in any competition must meet ALL expectation. Not meeting any one single expectation will result in the student’s inability to travel.</p>
  
 <p>Parents and students please read this handbook and sign below together to ensure that both parties are aware of the requirements. This sheet must be returned with all blanks filled correctly a student can be considered for joining the team.</p>
@@ -308,21 +326,18 @@ Student name
 
 Parent name
 
+{% include h1.html txt="Mentor Contract" id="mentorcontract" %}
 
-<h2>Mentor contract</h2>
-FIRST Core Values
-
-<h2>Student check list</h2>
+{% include h1.html txt="Student check list" id="studentchecklist" %}
 <p>Each student on the team is required to keep this check list in the team binder. This check list has to be keep current. </p>
 
 Current and active group member of Team 5064 facebook group page
 
 Bring dinner #1
 
-Participated activelly in a minimum of 60% of meeting hours during pre-season
+Participated actively in a minimum of 60% of meeting hours during pre-season
 
 
 Payed program fee
 
-
-<h2>Mentor check list</h2>
+{% include h1.html txt="Mentor check list" id="mentorchecklist" %}
