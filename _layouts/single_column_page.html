@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include navigation.html %}
+	<div class="container">
+	  <div class="container">
+        <div class="page-header" id="banner">
+          <div class="row">
+            <div class="col-lg-6">
+              
+            </div>
+          <div class="col-lg-6" style="padding: 0px 25px 15px 25px;">
+        </div>
+      </div>
+	  
+	  {% include alert.html %}
+      {{ content }}  
+    </div><!-- /container -->
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
