@@ -48,6 +48,7 @@ Being put together - but not done yet.
 - Address *issues* (bugs, typos, errors, etc) as reported in the Issue Tracking System
 - ICT credits (COM 1055, COM 2055, COM 3075, COM 3155,...)
 - We need a Marketing & Branding Captain today (deadlines are approaching)!
+- Web monkey team will meet weekly (separately from our Wed 4-6 meetings)
 
 # ...everyone else
 - Providing sensible ideas and constructive feedback on website 
@@ -65,6 +66,10 @@ Being put together - but not done yet.
 - **Inner City Community Outreach event at McEwan** (June 1, 10-1pm; inner city families; 6-12yrs; demo of Vlad)
 - **K-Days** (July 18-27, noon-11pm; demo of Vlad + Mindstorm sumo wrestling)
 - **Department of Mathematics, UoA** (August 19, 1-4pm; junior high; demo of Vlad and hands-on Mindstorm sumo wrestling)
+
+# Outreach student participation
+- Required participation: McEwan
+- Participation in at least one of these is required: K-Days or UoA
 
 # Getting outreach on the road
 - We need an Outreach Captain today (everyone else has to pitch in)
