@@ -2,7 +2,7 @@
 % April 20, 2014
 % [html](http://5064.ca/agendas_and_minutes/agenda-april-30-2014.html) | [pdf](http://5064.ca/agendas_and_minutes/agenda-april-30-2014.pdf)
 
-# Taking minutes
+# Taking minutes & minute-taking instruction
 
 # [Opcom](http://5064.ca/img/opcom_organization.png)
 - JrFLL
@@ -19,6 +19,7 @@
 - Technical Manager: Allan 
 - Programming Manager: Russell
 - Team Coordinator: Mario 
+- Team Support: Helen, C-Anne + parents
 
 # Team 5064 Team Captains
 Subteams report to Team Managers in brackets. Positions in **bold** need to be filled today
@@ -41,7 +42,7 @@ Being put together - but not done yet.
 - Not ready yet!
 - Projected "release" date May 8 (Next Wednesday)
 - Mario responsible for web site, but...
-- will be managed by students in Marketing & Branding subteam (one day)
+- Will be managed by students in Marketing & Branding subteam (one day)
 
 # Marketing & Branding subteam
 - Develop and maintain team's web site, produce swag and flair
@@ -78,7 +79,7 @@ Being put together - but not done yet.
 - We need swag and flair (the responsibility of the Marketing & Branding subteam)
 
 # For mentors
-- Mentor Coffee meeting (mentor training, biweekly)
+- Mentor Coffee meeting (mentor training, biweekly during build)
 
 <!---
 pandoc -t dzslides -s agenda-april-30-2014.md -o agenda-april-30-2014.html
