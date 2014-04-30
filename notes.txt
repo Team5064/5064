@@ -1,5 +1,6 @@
 Agenda
 
+- Need someone to take minutes - how to write minutes - make template
 - Web site (It's not ready yet. When do we announce it to the team?)
 - Call for writers and web monkeys
 - Recruitment of Outreach + Marketing and Branding Captains
@@ -22,9 +23,14 @@ Russell & C-Anne
 - The Management Team should develop ITC credit courses, arrange for weekly meetings between C-Anne, Allan, Russell and Mario (for first meeting, Mario will identify candidate courses and draft their contents on a web site; during the first meeting we will add some meat to the courses; how to we keep tracks/assess etc. of student progress)
 - K-Days update
 - Inner City Outreach 
+- How do we ensure people have read and understood the handbook?
+- Anmol
 
 Todo:
 - Add dropdown menu to navbar 'Join us as..' -> a mentor, a student, a sponsor
+- Create some slides/handouts for today's meeting
+- Outreach -> where to see Team 5064
+
 
 May Newsletter todos
 - Big Bin Event ad
