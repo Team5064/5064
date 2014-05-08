@@ -7,20 +7,21 @@ Agenda
 - Need to get outreach rolling asap (K-Days, Inner City Community Outreach event)
 - Need to build a pit (to be used for compeitions but - more urgently - for outreach)
 - Need student team (+ captains for web site management and set up)
-- UoA Campers visit. Need to set a date + time. (Aug 11 to Aug 22) 
+- UoA Campers visit. Need to set a date + time. (Tentativelly Aug 19, 1-4pm) : what has do be done: game table (sumo wrestling), handout buttons for FRC + FLL teams
 - Mentor Coffee meeting (mentor training, biweekly)
 - Need the following subteams in place asap
+- Ask Helen + Danny about volunteering for summer camps
 
 Russell & C-Anne
 - What should we go over today
 - Should we show web page today (yes, because students need to get involved)
 - Web page work -> COM1055
 - Should we show team handbook (no, because it is not done yet)
-- Development of ITC programming course (based on Russell's programming class)
-- How do we need to record ITC work/progress/assessments/etc.
+- Development of ICT programming course (based on Russell's programming class)
+- How do we need to record CTS work/progress/assessments/etc.
 - Scheduling of Mentor Coffee meetings (mentor training, first meeting should be about the FIRST Mentor Guidelines; 2nd meeting about mentor requirement and expectations in our handbook, do doodle poll among mentors to figure out best time to meet)
 - Put in a call for mentor add in Apega newsletter, UoA Fac of Engineering Magazine, Faculty of Science Magazine 
-- The Management Team should develop ITC credit courses, arrange for weekly meetings between C-Anne, Allan, Russell and Mario (for first meeting, Mario will identify candidate courses and draft their contents on a web site; during the first meeting we will add some meat to the courses; how to we keep tracks/assess etc. of student progress)
+- The Management Team should develop CTS credit courses, arrange for weekly meetings between C-Anne, Allan, Russell and Mario (for first meeting, Mario will identify candidate courses and draft their contents on a web site; during the first meeting we will add some meat to the courses; how to we keep tracks/assess etc. of student progress)
 - K-Days update
 - Inner City Outreach 
 - How do we ensure people have read and understood the handbook?
