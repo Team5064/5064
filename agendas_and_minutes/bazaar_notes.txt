@@ -1,0 +1,60 @@
+Concepts 
+- SCM
+- Web design / responsiveness
+- SEO
+- markup
+- CLI
+
+Tools  
+- git
+- GitHub
+
+Programming
+- ruby
+
+Webpage tools
+- CSS
+- HTML
+- javascript
+- Bootstrap / HTML5
+- jekyll: universal static blog generator
+- liquid: templating engine
+
+- markdown
+- LaTeX
+
+commit early - commit often (aka show us the sausage making)
+push carefully and thoughtfully
+use your local sandbox before pushing - do checks and balance on client side
+use descriptive,, to the point, one-line and <72 character commit messages (http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+The work-flow is the law
+Unless pre-approved to do so by Mario or Russell never ever push to the master repository
+Show your code (Open Source) - Cathedrals are bad - bazaars are good
+Git does not forget (i.e. the whole world can see you mess up)
+If in doubt - don't do it.
+Experiment in clones or copies
+
+Each commit represents one idea or one whole change (easier to read or revert)
+Each branch represents one feature (or topic) (easier to read or merge)
+Your local working directory, index and local repo are scratch pads.
+
+Do not fret if you have hard time wrapping your head around git - only one person is able to do that (Linus Torvalds)
+
+Don't use GUI GutHub software
+
+Fork & pull
+The fork & pull model lets anyone fork an existing repository and push changes to their personal fork without requiring access be granted to the source repository. The changes must then be pulled into the source repository by the project maintainer. This model reduces the amount of friction for new contributors and is popular with open source projects because it allows people to work independently without upfront coordination.
+
+Remote collaboration and code review
+The ability to pull down other people's changesets for code review and collaboration is made easy with git's multiple remotes capability. Being able to create cheap local branches and experiment with integrating other developer's changesets makes it ideal for open source projects and outsourced collaboration with junior developers, where you want to review other people's code before it becomes part of the master branch. And because anyone who has access to a repo can clone it, they can do development on a fork without asking for your approval, which also encourages experimentation.
+
+Offline productivity, speed, and multitasking
+Git encourages multitasking and experimentation. Fast and easy local branching means the ability to keep bugs and features you're working on in different workspaces, and to experiment more with throwaway branches. Having everything local means you can have fast diffs and history logs, and commit to your repo while on the go without being online.
+
+Hands-on
+Create a GitHub account
+Forked an existing repository
+Repeat until happy
+  Make some changes to your local forked repos
+  Pushed changes to your fork
+Submit a pull request requesting review and merge with the central repos maintainer (i.e. Mario)
